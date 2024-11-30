@@ -70,4 +70,9 @@ export const Routing = createBrowserRouter([
     path: "/register",
     errorElement: <Error />,
   },
+
+  {
+    element: <Error />,
+    path: "*",
+  },
 ]);
